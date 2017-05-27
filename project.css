@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: lighter;
+}
+
+h2 {
+	text-align: center;
+	font-weight: lighter;
+	color: #474747;
+	background-color: #a8a8a8;
+	padding: 5px 0 5px 0;
+	margin: 0;
+}
+
+body {
+	background-color: #e2e2e2;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+	background-color: #d6d6d6;
+}
+
+#header h1 {
+	padding: 15px 0 15px 0;
+	margin-top: 20px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#nav {
+	margin: 0 0 40px 0;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 15px 0 15px 0;
+	background-color: #a8a8a8;
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav li a {
+	color: #474747;
+	text-decoration: none;
+	padding: 15px;
+}
+
+#nav li a:hover {
+	background-color: #474747;
+	color: #a8a8a8;
+}
+
+#nav li a.thisPage {
+	background-color: #474747;
+	color: #a8a8a8;
+}
+
+#content {
+	background-color: #c4c4c4;
+	overflow: auto;
+	width: 630px;
+}
+
+#content img {
+	float: right;
+	clear: right;
+	margin: 0 10px 0 10px;
+}
+
+#server1, #service2, #service3 {
+	margin: 120px 0 20px 0;
+}
+
+#content p {
+	padding: 5px;
+	text-align: justify;
+	margin: 0;
+}
+
+#content ul {
+	list-style-type: square;
+}
+
+#sidebar {
+	float: right;
+	width: 320px;
+	background-color: #c4c4c4;
+}
+
+#sidebar p {
+	padding: 5px;
+	margin: 0;
+}
+
+#footer {
+	margin-bottom: 20px;
+}
+
+#footer ul {
+	margin: 0;
+	padding: 15px 0 15px 0;
+	background-color: #a8a8a8;
+	list-style-type: none;
+}
+
+#footer li {
+	display: inline;
+}
+
+#footer li a {
+	color: #474747;
+	text-decoration: none;
+	padding: 15px;
+}
+
+#footer li a:hover {
+	background-color: #474747;
+	color: #a8a8a8;
+}
+
+#copy {
+	position: relative;
+	width: 166px;
+	bottom: -50px;
+	left: 794px;
+	color: #474747;
+}
+
+#copy:hover {
+	color: #474747;
+	font-weight: bold;
+	cursor: default;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.border {
+	border: solid 1px blue;
+}
